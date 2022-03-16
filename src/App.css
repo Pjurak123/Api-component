@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  align-items: center;
+  background: #333232;
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: inline-block;
+  width: 100%;
+  color: #f6f4e6;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #fddb3a;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-container {
+  background-color: #272727;
+  display: flex;
+}
+
+.nav-ul {
+  padding: 0;
+  max-width: 18.75rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* List element */
+.nav-li {
+  counter-increment: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.api-data {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.api-data:hover {
+  color: #fddb3a;
+}
+
+/* DETAILS */
+
+h1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-details {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #fff;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  width: 25rem;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  color: #aaa;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.list-details {
+  margin: 10% 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.list_item-details {
+  margin-bottom: 5%;
+}
+
+.item {
+  font-weight: 700;
+}
+
+.image-details {
+  border-radius: 25rem;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
